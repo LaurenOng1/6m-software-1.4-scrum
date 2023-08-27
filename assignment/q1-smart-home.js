@@ -14,7 +14,7 @@ class BaseSignal {
         if(this.constructor.name === "BaseSignal"){
             throw new Error("This class cannot be instantiated");
         }
-        this.type = type; //tv
+        this.type = type;
     }
 
     send() {
